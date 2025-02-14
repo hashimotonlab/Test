@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h3>テストです</h3>
+    <img id="image" src="image/door.jpg">
+    <button id="Button">クリックしてください</button>
+    <script>
+        let button=document.getElementById("Button");
+        let image=document.getElementById("image");
+        console.log(image)
+        Button.addEventListener("click",(event)=>{
+            image.src="image/hello.jpg"
+        
+        })
+    </script> 
+</body>
+</html>
